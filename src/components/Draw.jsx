@@ -296,10 +296,14 @@ const Draw = () => {
           </div>
         </div> */}
         <div>
-          <img src="../assets/logo" alt="logo" />
+          <img
+            src="https://raw.githubusercontent.com/yadavvshall/ExcaliDraw/main/src/assets/logo.jpg"
+            alt="logo"
+            className="mx-6 my-2"
+            style={{ width: "60px", height: "auto", borderRadius: "50%" }} // Adjust width as needed
+          />
         </div>
-          
-        
+
         {/* Controls */}
         <div
           className={`absolute top-0 right-0 z-10 w-full py-2 ${
